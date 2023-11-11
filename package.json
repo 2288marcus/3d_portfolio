@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "upload": "surge dist https://marcus-wong.surge.sh",
+    "deploy": "npm run build && npm run upload",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -32,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
+    "surge": "^0.23.1",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
   }

@@ -66,18 +66,18 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -106,18 +106,18 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "p5.js",
-  //   icon: p5,
-  // },
+  {
+    name: "p5.js",
+    icon: p5,
+  },
   {
     name: "python",
     icon: python,
   },
-  // {
-  //   name: "insomnia",
-  //   icon: insomnia,
-  // },
+  {
+    name: "insomnia",
+    icon: insomnia,
+  },
   {
     name: "knex",
     icon: knex,
@@ -166,8 +166,8 @@ const experiences = [
     ],
   },
   {
-    title: "個人保險代理",
-    company_name: "中國太平人壽保險",
+    title: "Insurance agent",
+    company_name: "China Taiping Insurance Holdings Company Limited",
     icon: 中國太平,
     iconBg: "#ffffff",
     date: "Sept 23, 2019 – Oct 24, 2020",
@@ -191,7 +191,8 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "Very Good!",
+    testimonial:
+      "Marcus is an energetic and enthusiastic learner who consistently seeks out new challenges. In just a few weeks, he has developed a remarkable 3D AR game and a service matching platform integrated with cryptographic signatures, showcasing his unwavering commitment to learning and embracing complex tasks. With his exceptional abilities, Marcus proves to be an invaluable asset for any organization in web app development!",
     name: "Beeno Tung",
     designation: "Instructor",
     company: "Tecky Academy",
